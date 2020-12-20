@@ -18,4 +18,4 @@
 
 ## GitHub
 
-[Link to Github repo]()
+[Link to Github repo](https://github.com/vutanguofa/vutang-portfolio)

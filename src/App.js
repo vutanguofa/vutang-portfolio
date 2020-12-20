@@ -1,43 +1,33 @@
-import React, { useState } from 'react';
-import Nav from './components/Nav';
+import React, {useState } from 'react';
+// import './App.css';
 import About from './components/About';
-import Gallery from './components/Gallery';
-import ContactForm from './components/Contact';
+import Contact from './components/Contact';
+import Portfolio from './components/Portfolio';
+import Resume from './components/Resume';
+import Nav from './components/Nav';
+import Footer from './components/Footer';
+
 
 function App() {
-  const [categories] = useState([
-    {
-      name: 'commercial',
-      description: 'Photos of grocery stores, food trucks, and other commercial projects',
-    },
-    { name: 'portraits', description: 'Portraits of people in my life' },
-    { name: 'food', description: 'Delicious delicacies' },
-    { name: 'landscape', description: 'Fields, farmhouses, waterfalls, and the beauty of nature' },
-  ]);
-
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
-
-  const [contactSelected, setContactSelected] = useState(false);
+  // const tabs = ['About', 'Contact', 'Portfolio', 'Resume'];
+  const [currentTab, setCurrentTab] = useState('About');
+  const renderPage = () => {
+    switch(currentTab) {
+      case 'About': return <About />;
+      case 'Contact': return <Contact />;
+      case 'Portfolio': return <Portfolio />;
+      case 'Resume': return <Resume />;
+      default: return <About />;
+    }
+  }
 
   return (
-    <div>
-      <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      ></Nav>
-      <main>
-        {!contactSelected ? (
-          <>
-            <Gallery currentCategory={currentCategory}></Gallery>
-            <About></About>
-          </>
-        ) : (
-          <ContactForm></ContactForm>
-        )}
+    <div className="..">
+      <Nav currentTab={currentTab} setCurrentTab={setCurrentTab}></Nav>
+      <div>{renderPage(currentTab)}</div>
+      <main> 
       </main>
+    <Footer />
     </div>
   );
 }
