@@ -1,11 +1,12 @@
 import React from "react";
+import vutang from '../../assets/vuResume.docx';
 
 function Resume() {
     return (
         <section className="resume-section page-section">
             <h2>Resume</h2>
             <div>
-                <a href="https://drive.google.com/file/d/1bAmxGfd__hDw7afeuwF4omLcW4rAy2pT/view?usp=sharing" target="_blank">
+                <a href={vutang} download>
                     <button class="button button1">Download Resume</button>
                 </a><br/>
                 <h2>Client-side Proficiencies</h2>

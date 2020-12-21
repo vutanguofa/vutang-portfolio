@@ -47,24 +47,16 @@ p {
   margin: 0;
 }
 
-/* Hero/Jumbotron Section */
-.hero {
-  height: 500px;
-  width: 100%;
-  margin-bottom: 25px;
-  background-image: url("./assets/digital-marketing-meeting.jpg");
-  background-color: #2a607c; /* Used if the image is unavailable */
-  background-size: cover;
-  background-position: center;
-}
+img {
+  width: 40px;
+  height: 40px;
+ }
 
-.profile-picture {
-  border-radius: 50%;
-  height: 150px;
-  width: 150px;
+.portfolio-picture {
+  height: 200px;
+  width: 170px;
   margin-left: auto;
   margin-right: auto;
-  display: block;
   text-align: left;
 }
 

@@ -1,11 +1,12 @@
 import React from 'react';
+import vutang from '../../assets/vutang.png';
 
 function About() {
     return(
     <section class="page-section" id="about">
       <h2>About Me</h2>
       <div class="right-margin">
-      <img class="profile-picture" src={require("../../assets/vutang.png")} alt="vu gray shirt" />
+      <img class="portfolio-picture" src={vutang} alt="vu gray shirt" />
      
         <p>
         My name is, Vu Tang, and I am currently a student at UofA. I'm attending a bootcamp coding class and will be graduating in January, becoming an official fullstack developer.
