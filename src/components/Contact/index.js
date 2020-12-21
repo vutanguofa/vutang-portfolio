@@ -40,15 +40,15 @@ function Contact() {
         <form id="contact-form" onSubmit={handleSubmit}>
           <div>
             <label htmlFor="name">Name:</label><br/>
-            <input type="text" name="name" size="48" defaultValue={name} onBlur={handleChange} />
+            <input type="text" name="name" size="52" defaultValue={name} onBlur={handleChange} />
           </div>
           <div>
             <label htmlFor="email">Email address:</label><br/>
-            <input type="email" name="email" size="48" defaultValue={email} onBlur={handleChange} />
+            <input type="email" name="email" size="52" defaultValue={email} onBlur={handleChange} />
           </div>
           <div>
             <label htmlFor="message">Message:</label><br/>
-            <textarea name="message" rows="5" cols="50" defaultValue={message} onBlur={handleChange} />
+            <textarea name="message" rows="5" cols="49" defaultValue={message} onBlur={handleChange} />
           </div>
           {errorMessage && (
             <div>

@@ -5,8 +5,9 @@ function Resume() {
         <section className="resume-section page-section">
             <h2>Resume</h2>
             <div>
-                <p>Download my <a href="https://drive.google.com/file/d/1bAmxGfd__hDw7afeuwF4omLcW4rAy2pT/view?usp=sharing" target="_blank">
-                    resume </a></p>
+                <a href="https://drive.google.com/file/d/1bAmxGfd__hDw7afeuwF4omLcW4rAy2pT/view?usp=sharing" target="_blank">
+                    <button class="button button1">Download Resume</button>
+                </a><br/>
                 <h2>Client-side Proficiencies</h2>
                 <ul>
                     <li>CSS</li>
