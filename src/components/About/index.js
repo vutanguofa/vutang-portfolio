@@ -12,7 +12,7 @@ function About() {
         My name is, Vu Tang, and I am currently a student at UofA. I'm attending a bootcamp coding class and will be graduating in January, becoming an official fullstack developer.
         </p>
         <p>
-        Aside from school, I enjoy building websites using WordPress and am familiar with using payment processing APIs with PayPal and Braintree. Additionally, I have over 5 years of experience with working with ecommerce platforms such as Magenot and WooCoommerce.
+        Aside from school, I enjoy building websites using WordPress and am familiar with using payment processing APIs with PayPal and Braintree. Additionally, I have over 5 years of experience with working with ecommerce platforms such as Magento and WooCoommerce.
         </p>
       </div>
     </section>
