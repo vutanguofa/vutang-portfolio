@@ -14,7 +14,7 @@
 
 ## Heroku
 
-[Link to deployed application]()<br />
+[Link to deployed application](https://vu-react-portfolio.herokuapp.com/ )<br />
 
 ## GitHub
 
