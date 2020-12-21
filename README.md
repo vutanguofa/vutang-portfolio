@@ -2,6 +2,8 @@
 
 ## Description
 
+This is my personal react portfolio that includes my work. Additionally, my client and server side skills are listed and a downloadable version of my resume is available for reference. 
+
 ## Table of Contents
 
 * [Assignment Details](#assignment-details)<br />
